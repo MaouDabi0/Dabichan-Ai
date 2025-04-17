@@ -1,8 +1,8 @@
 module.exports = {
-  name: 'cektolol',
-  command: ['cektolol'],
+  name: 'ceksigma',
+  command: ['ceksigma'],
   tags: 'Fun Menu',
-  desc: 'Cek seberapa tolol seseorang',
+  desc: 'Cek seberapa sigma seseorang',
 
   run: async (conn, message, { isPrefix }) => {
     const chatId = message.key.remoteJid;
@@ -24,20 +24,20 @@ module.exports = {
 
     let komentar;
     if (persentase <= 25) {
-      komentar = 'Masih pinter kok';
+      komentar = 'Masih cupu';
     } else if (persentase <= 44) {
-      komentar = 'Agak bego dikit';
+      komentar = 'Lumayan alpha';
     } else if (persentase <= 72) {
-      komentar = 'Aduh tolol nih';
+      komentar = 'Wih calon sigma!';
     } else if (persentase <= 88) {
-      komentar = 'Fix goblok';
+      komentar = 'Sigma sejati!';
     } else {
-      komentar = 'Hati² idiot tingkat dewa';
+      komentar = 'Hati² Alpha Overlord!';
     }
 
     const mentionTarget = targetId;
 
-    const teks = `Cek seberapa tolol @${mentionTarget}\n\n${persentase}% Tolol\n_${komentar}_`;
+    const teks = `Cek seberapa sigma @${mentionTarget}\n\n${persentase}% Sigma\n_${komentar}_`;
 
     conn.sendMessage(chatId, {
       text: teks,

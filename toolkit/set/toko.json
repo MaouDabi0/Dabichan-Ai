@@ -1,0 +1,62 @@
+{
+  "storeSetting": {
+    "panel": [
+      {
+        "name": "unli",
+        "price": "12k"
+      },
+      {
+        "name": "7gb",
+        "price": "7k"
+      },
+      {
+        "name": "9gb",
+        "price": "9k"
+      },
+      {
+        "name": "5gb",
+        "price": "5k"
+      },
+      {
+        "name": "3gb",
+        "price": "3k"
+      },
+      {
+        "name": "4gb",
+        "price": "4k"
+      },
+      {
+        "name": "6gb",
+        "price": "6k"
+      },
+      {
+        "name": "8gb",
+        "price": "8k"
+      }
+    ],
+    "sewa-bot": [
+      {
+        "name": "1-Bulan",
+        "price": "10k"
+      },
+      {
+        "name": "2-Bulan",
+        "price": "20k"
+      },
+      {
+        "name": "3-Bulan",
+        "price": "25k"
+      },
+      {
+        "name": "permanen",
+        "price": "30k"
+      }
+    ],
+    "topup": [
+      {
+        "name": "100dm",
+        "price": "75k"
+      }
+    ]
+  }
+}

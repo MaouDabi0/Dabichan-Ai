@@ -2,10 +2,10 @@
 const fs = require('fs');
 
 module.exports = {
-  name: 'panel',
-  command: ['panel'],
+  name: 'sewa-bot',
+  command: ['sewa-bot'],
   tags: 'Toko Menu',
-  desc: 'Menampilkan toko panel',
+  desc: 'Menampilkan toko sewa-bot',
 
   run: async (conn, message, { isPrefix }) => {
     const chatId = message.key.remoteJid;
@@ -32,7 +32,7 @@ module.exports = {
       return conn.sendMessage(chatId, { text: "❌ Gagal membaca file toko.json" }, { quoted: message });
     }
 
-    const items = tokoData.storeSetting['panel'];
+    const items = tokoData.storeSetting['sewa-bot'];
     if (!items || items.length === 0) {
       return conn.sendMessage(chatId, { text: "Toko ini belum memiliki barang." }, { quoted: message });
     }
@@ -43,9 +43,9 @@ module.exports = {
 `).join('');
     
     conn.sendMessage(chatId, { 
-      text: `Selamat datang di toko panel!
+      text: `Selamat datang di toko sewa-bot!
 
-${head}${Obrack} Daftar panel ${Cbrack}
+${head}${Obrack} Daftar sewa-bot ${Cbrack}
 ${itemList}${foot}`
     }, { quoted: message });
   }

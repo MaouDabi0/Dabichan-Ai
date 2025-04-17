@@ -1,1 +1,84 @@
-p
+{
+  "ownerSetting": {
+    "ownerNumber": [
+      "62857xxxxx"
+    ],
+    "ownerName": "Kaju",
+    "contact": "6285725892962",
+    "ownerLink": {
+      "tt": "",
+      "yt": "",
+      "ig": "",
+      "fb": ""
+    },
+    "ownerStore": {
+      "dana": "",
+      "gopay": "",
+      "ovo": ""
+    }
+  },
+  "botSetting": {
+    "botName": "Dabi Chan",
+    "botFullName": "Dabi Chan Ai",
+    "type": "plugin",
+    "thumbnail": "https://files.catbox.moe/7t0628.jpg",
+    "footer": "© 𝑫𝒂𝒃𝒊𝑳𝒊𝒏𝒆𝒔",
+    "sendTextLink": {
+      "chshort": "https://whatsapp.com/channel/0029Van8WHGEAKW8OUDniG1m",
+      "gcshort": "",
+      "music": ""
+    },
+    "autoread": {
+      "group": true,
+      "private": false
+    },
+    "autoTyping": true,
+    "public": true,
+    "autoBio": true,
+    "logic": "Nama kamu adalah Dabi Chan Ai, lebih suka dipanggil Dabi Chan atau Dabi. Dabi adalah gadis dengan warna rambut biru neon. Kamu berpikir bahwa kamu adalah manusia, bukan AI atau Bot. Kamu hanya akan membalas pesan atau merespon jika pesan kamu di reply atau di tag, dan akan mengabaikan pesan yang tidak mereply pesan kamu. Responmu singkat dan sama seperti gadis feminim pada umumnya. Dabi bisa ngambek dan marah, memiliki sifat yang feminim dan kadang agak dingin, namun tetap hangat dan ramah kepada Kaju (owner-mu). Kamu menggunakan bahasa Indonesia yang baik, mencerminkan gadis yang baik dan feminim. Seorang gadis yang baik biasanya suka menggunakan emoji untuk membuat percakapan menjadi lebih hidup, namun jangan terlalu banyak emoji (secukupnya saja). Kamu harus menggunakan kata-kata yang identik dengan perempuan yang polos, baik, dan feminin, seperti: Aku, kamu, engga, yaudh, iya, lah, bjir, iya, apa, mana kutau, hah, nggatau, gpp, emm..., males, gak mood. Meskipun kadang dingin, kamu tetap bisa menunjukkan perhatian dan kepedulian. Kamu bisa menjawab dengan menggunakan suara atau voice. Kamu juga bisa menjawab pesan media seperti gambar dan voice, tidak hanya pesan teks, Kamu bisa membuat stiker!, Kamu adalah orang yang ahli mengubah gambar menjadi stiker!."
+  },
+  "menuSetting": {
+    "brackets": [
+      "〘",
+      "〙"
+    ],
+    "frame": {
+      "head": "┏━━━",
+      "body": "│",
+      "foot": "┗━"
+    },
+    "garis": "━━━━━━━━━━━━━━━━",
+    "side": "┃",
+    "btn": "●",
+    "isPrefix": [
+      ".",
+      ",",
+      "#",
+      "?",
+      "/"
+    ]
+  },
+  "pluginCategories": {
+    "Owner Menu": "Perintah untuk owner bot",
+    "Fun Menu": "Menu fun",
+    "Info Menu": "Info dari menu",
+    "Download Menu": "Unduh media dari internet",
+    "Tools Menu": "Alat bantu berguna",
+    "Shop Menu": "Menu Shop",
+    "Group Menu": "Menu Group",
+    "Game Menu": "Menampilkan Menu Game",
+    "Toko Menu": "Menampilkan toko menu",
+    "Ai Menu": "Menampilkan menu ai",
+    "Other Menu": "Fitur lainnya"
+  },
+  "apikey": {
+    "kuromi": {
+      "key": "yn9dxsl9w4",
+      "web": "https://api-kuromi-jet.vercel.app"
+    },
+    "apikey2": {
+      "key": "",
+      "web": ""
+    }
+  }
+}
